@@ -60,10 +60,9 @@ public class main {
         String first,second="";
         System.out.println("Enter the String to chek it's Plindrom ");
         first=s.next();
-        int lenght=first.length();
-        for(int i=lenght-1;i>=0;i--){
-            second=second+first.charAt(i);
-        }
+         System.out.println("Enter the second String to chek it's Plindrom ");
+        second=s.next();
+        
         if(first.equalsIgnoreCase(second))
         {
             return true;
