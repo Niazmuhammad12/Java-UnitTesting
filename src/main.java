@@ -21,6 +21,8 @@ public class main {
         return  true;
     }
 
+   
+   // method to check the numbr is even or odd
     Boolean CheckEvenOdd(){
         int number;
         System.out.println("Enter the number to check it's Even or Odd");
@@ -31,6 +33,8 @@ public class main {
         else
             return false;
     }
+   
+   // method to calculate everage of int array
     float CalculateAverage(){
          float average;
 
@@ -50,6 +54,8 @@ public class main {
 
     }
 
+   
+   // method to check if two string is Plindrom string 
     Boolean CheckPalindromString(){
         String first,second="";
         System.out.println("Enter the String to chek it's Plindrom ");
@@ -68,6 +74,8 @@ public class main {
 
     }
 
+   
+   //convert temp from calsius to fahrenheit and kalven
     float[] getTempIntoFAndK(){
         float temps[]=new float[2];
         System.out.println("Enter the temp in Celsius");
